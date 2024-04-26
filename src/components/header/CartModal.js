@@ -111,7 +111,7 @@ const ShoppingCartItem = ({ product, quantity }) => {
                 color="success"
                 sx={{ borderRadius: 1.5, width: 80, height: 30 }}
               />
-              {/* peri sheucvalee amas */}
+
               <GoTrash
                 onClick={() => dispatch(removeProductFromCart(_id))}
                 size={20}
